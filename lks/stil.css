@@ -1,0 +1,220 @@
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #040a24;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-main-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-main-div .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 18px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid #0a65fd;
+  margin-bottom: 10px;
+}
+.login-main-div .logo img {
+  width: 120px;
+}
+.login-main-div .form {
+  padding: 25px;
+  background-color: #0a65fd;
+  border-radius: 20px;
+}
+.login-main-div .form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.login-main-div .form form input {
+  width: 200px;
+  height: 30px;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+.login-main-div .form form input::-moz-placeholder {
+  font-size: 15px;
+}
+.login-main-div .form form input:-ms-input-placeholder {
+  font-size: 15px;
+}
+.login-main-div .form form input::placeholder {
+  font-size: 15px;
+}
+.login-main-div .form form input[type=submit] {
+  background-color: #08205c;
+  color: white;
+  cursor: pointer;
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 20px;
+  height: 35px;
+}
+
+#index .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#index .container > div {
+  width: 100%;
+  margin-top: 20px;
+  padding: 25px;
+  background-color: #0a65fd;
+  border-radius: 20px;
+}
+#index .container > div:first-child {
+  margin-top: 30px;
+}
+#index .container .top {
+  text-align: center;
+}
+#index .container .top span {
+  font-size: 50px;
+  color: white;
+}
+#index .container .mid > p:first-child {
+  font-size: 24px;
+  color: white;
+}
+#index .container .mid .inUser {
+  font-size: 20px;
+  color: white;
+  padding-bottom: 10px;
+}
+#index .container .logs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+#index .container .logs .top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#index .container .logs .top span {
+  font-size: 15px;
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #08205c;
+  border-radius: 20px;
+}
+#index .container .logs .bot {
+  width: 100%;
+  text-align: center;
+}
+#index .container .logs .bot .tablo {
+  width: 100%;
+}
+#index .container .logs .bot .tablo thead {
+  background-color: #08205c;
+  color: white;
+}
+#index .container .logs .bot .tablo thead tr th {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+#index .container .logs .bot .tablo tbody tr.active {
+  background-color: rgba(8, 32, 92, 0.5);
+}
+#index .container .logs .bot .tablo tbody tr td {
+  padding: 5px;
+  color: white;
+}
+#index .fixedBot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#index .fixedBot .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#index .fixedBot .container span {
+  width: 50%;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#index .fixedBot .container span.goIn {
+  background-color: green;
+}
+#index .fixedBot .container span.goOut {
+  background-color: red;
+}
+
+.maindiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.maindiv img {
+  width: 120px;
+  padding-bottom: 16px;
+}
+.maindiv #regform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 25px;
+  background-color: #0a65fd;
+  border-radius: 20px;
+}
+.maindiv #regform input {
+  width: 200px;
+  height: 30px;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+.maindiv #regform input::-moz-placeholder {
+  font-size: 15px;
+}
+.maindiv #regform input:-ms-input-placeholder {
+  font-size: 15px;
+}
+.maindiv #regform input::placeholder {
+  font-size: 15px;
+}
+.maindiv #regform input[type=submit] {
+  background-color: #08205c;
+  color: white;
+  cursor: pointer;
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 20px;
+  height: 35px;
+}/*# sourceMappingURL=style.css.map */
